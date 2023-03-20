@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form">
+        <div class="box">  
+            <div class="buttons">
+                <div id="btn1"></div>
+                <button type="button" class="btn" onclick="login()">Log In</button>
+                <button type="button" class="btn" onclick="register()">Register </button>
+            </div>
+            <div class="icons">
+                <img src="images/fb.png" alt="">
+                <img src="images/insta.jpg" alt="">
+                <img src="images/tw.jpg" alt="">
+            </div> 
+            <form id="login" class="details">
+                <input class="user" type="text" placeholder="User Id" required>
+                <input class="user" type="text" placeholder="Enter Password" required>
+                <input class="checkbox" type="checkbox" ><span>Remember Password</span>
+                <button class="submit" type="submit">Log In</button>
+            </form>
+            <form id="register" class="details">
+                <input class="user" type="text" placeholder="User Id" required>
+                <input class="user" type="email" placeholder="Email Id" required>
+                <input class="user" type="password" placeholder="Enter Password" required>
+                <input class="checkbox" type="checkbox" ><span>I agree to the T&C</span>
+                <button class="submit" type="submit">Register</button>
+            </form>
+        </div>
+      
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

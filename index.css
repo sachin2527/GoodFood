@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
+/* nav CSS */
+*
+{
+  font-family: "poppins";
+  margin: 0px;
+  padding: 0px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /*work only if display fiex used*/
+    padding: 0px 50px;
+    height: 80px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 15px;
+
+   
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: gray;
+    font-size: 19px;
+}
+/* Banner CSS */
+@keyframes moveright {
+  0% {
+  transform: translateX(-100px);
+  visibility: visible;
+}
+100% {
+  transform: translateX(0);
+  visibility: visible;
+}
+}
+.mainBanner .content {
+  animation:  moveright 1s linear 1;
+  animation-delay: 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+#mainBanner
+{
+    background-image: url("images/banner.jpg");
+    height: calc(90vh - 40px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainBanner h1
+{
+color: white;
+font-size: 50px;
+animation:  moveright 1s linear 1;
+animation-delay: 3s;
+visibility: hidden;
+animation-fill-mode: forwards;
+}
+
+ #boldContent
+{
+    color: #0ae9b5;
+    font-size: 30px;
+    font-weight: 700px;   
+    
+}
+#mainBanner .content
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#mainBanner a
+{
+    color: black;
+    font-size: 17px;
+   padding: 15px 20px;
+   display: inline-block;
+   margin-top: 30px;
+   font-weight: 500;
+   border-radius:  30px 10px;
+   text-decoration: none;
+}
+#btn1
+{
+    background-color: transparent;
+    /* background-image: linear-gradient(
+110deg, #594AD9 7%, #8153F0 100%);  */
+background-color: #fff;
+
+
+}
+#btn2
+{
+    background-color: transparent;
+    background-image: linear-gradient(
+110deg, #004E9B 7%, #1A80E4 100%);
+margin-left: 90px;
+}
+#content
+{
+    padding:80px 0px 0px 50px;
+}
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+  }
+  
+  .card {
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .template {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+  }
+  .motive{
+    background-color: beige;
+    text-align: center ;
+    color: grey;
+    width: 100vw;
+    height: 100px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  #objectives {
+    background-color: #f8e5e5;
+    padding: 50px;
+  }
+  
+  #objectives h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #objectives ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  #objectives li {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  #objectives li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #008080;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 6px;
+  }
+  
+  #objectives li:last-child {
+    margin-bottom: 0;
+  }
+  
